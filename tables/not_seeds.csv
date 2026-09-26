@@ -1,0 +1,13 @@
+item,why_out
+42 Jac(W) residues in {1,-6},algebra of one block; not [M-bar vir] of F
+product of three Guere integrals of W,Guere is one chain; F is three chains on one curve
+0 written into X_001 as a dummy fill,empty-stack zero is only off-rule; (0,0,1) is on-rule
+1 written into X_001,numeral; not the unit state 1_J and not the virtual class
+6 written into X_001,volume pairing on the Lefschetz line; two-point; not a BBN three-point
+1/6 written into a mixed cell,invented fill
+R_0 treated as CohFT unit,R_0 is H^{4,0} broad; unit is 1_J narrow
+unit slice X_001(R_0,beta,phi_J)=0,withdrawn; used the wrong line
+2604 complement of extra mixed directions,withdrawn; 2605 is exactly the J-invariant tensors
+omega^2 parked in the 2605,extra 1 in h^{2,2}=1752 sits outside the primitive 1751
+cl=0 on Rat,not a fourfold
+Krawitz G_max seeds,wrong group; here G=<J> order 6

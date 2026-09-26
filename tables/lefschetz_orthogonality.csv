@@ -1,0 +1,6 @@
+broad,narrow,deg_sum,eta,reason
+alpha in H^4_prim,1,4,0,degree
+alpha in H^4_prim,omega,6,0,degree
+alpha in H^4_prim,omega^2,8,0,primitive perp Lefschetz; omega^2 not in the 2605
+alpha in H^4_prim,omega^3,10,0,degree
+alpha in H^4_prim,omega^4,12,0,degree
