@@ -10,6 +10,9 @@ concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
+permissions:
+  contents: read
+
 jobs:
   structure:
     name: Required files present
@@ -18,25 +21,22 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5
 
-      - name: Verify ledger files
+      - name: Verify required files
         run: |
-          set -e
+          set -euo pipefail
           fail=0
-          for f in LICENSE README.md PARENT.md docs/UNIT_CORRECTION.md; do
+          for f in LICENSE README.md PARENT.md docs/UNIT_CORRECTION.md \
+                   tables/seeds.csv tables/not_seeds.csv \
+                   tables/broad_grading.csv tables/lefschetz_orthogonality.csv; do
             if [ -e "$f" ]; then echo "ok   $f"; else echo "MISS $f"; fail=1; fi
           done
-          echo "--- tables ---"
-          for f in tables/seeds.csv tables/broad_grading.csv tables/allowed_36.csv tables/off_rule_180.csv tables/three_points_W_42.csv; do
-            if [ -e "$f" ]; then echo "ok   $f"; else echo "MISS $f"; fail=1; fi
-          done
-          exit $fail
+          exit "$fail"
 
-      - name: Locked ranks still 25, 26, 30
+      - name: Seeds list must not contain dummy fills
         run: |
-          set -e
-          grep -q ',25,' tables/seeds.csv || grep -q '25' tables/seeds.csv
-          echo "seeds.csv present; ranks documented in UNIT_CORRECTION.md"
-          grep -q '25' docs/UNIT_CORRECTION.md
-          grep -q '26' docs/UNIT_CORRECTION.md
-          grep -q '30' docs/UNIT_CORRECTION.md
-          echo "locked ranks mentioned"
+          set -euo pipefail
+          if grep -Eiq '(^|,)(0|1|6|1/6)($|,)' tables/seeds.csv; then
+            echo "dummy numeral parked in tables/seeds.csv"
+            exit 1
+          fi
+          echo "seeds.csv has no 0 / 1 / 6 / 1/6 fills"
