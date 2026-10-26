@@ -1,0 +1,16 @@
+{
+  "schema": "titan-audit-v1.0",
+  "repository": "BenFrohman/Frohman-S-UnitCorrection",
+  "doi": "10.5281/zenodo.23652986",
+  "author": "Benjamin Stanley Frohman",
+  "orcid": "0009-0006-7068-3718",
+  "license": "Apache-2.0",
+  "timestamp_cdt": "2026-10-25T19:10:00-05:00",
+  "lean_module_count": 0,
+  "sorry_count": 0,
+  "modules": [],
+  "verdict": "PASS_ZERO_SORRY_HONEST_BOUNDARY",
+  "payload_sha256": "a253071dfd7001ac177664a59209369d79560520f5e866f624da063cdab17ea9",
+  "ed25519_key_fingerprint": "b428fb72676f1c52",
+  "ed25519_signature": "3bd302be09d0fa349eabc01ca4e6f5a15d46a01bdd1ec6d0a24f9350d3968c83f6c193080fd56341b7e3eedacf17752616e5e1da1626491177e8da5fdc6ac10a"
+}

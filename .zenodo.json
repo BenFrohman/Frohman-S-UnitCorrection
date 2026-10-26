@@ -1,0 +1,28 @@
+{
+  "title": "Frohman-S-UnitCorrection: Narrow CohFT Unit 1_J Correction, Seed Family S, and Lefschetz Orthogonality Tables in FJRW Theory",
+  "upload_type": "dataset",
+  "description": "Standalone dataset and technical specification (`docs/CORRECTION.md`, `docs/BROAD_GRADING.md`, `docs/UNIT_INSERTION.md`, `tables/seeds.csv`, `tables/not_seeds.csv`, `tables/broad_grading.csv`, `tables/lefschetz_orthogonality.csv`) establishing the narrow CohFT unit 1_J selection-rule correction for the seed family S in three-block FJRW theory. Records verified selection-rule and grading corrections for the seed list S and narrow unit insertions; explicitly distinguishes closed seed tables from open Hodge/CohFT conjectures. Copyright (c) 2026 Benjamin Stanley Frohman. Licensed under the Apache License, Version 2.0.",
+  "creators": [
+    {
+      "name": "Frohman, Benjamin Stanley",
+      "orcid": "0009-0006-7068-3718"
+    }
+  ],
+  "license": "Apache-2.0",
+  "access_right": "open",
+  "keywords": [
+    "FJRW theory",
+    "CohFT unit axiom",
+    "String equation",
+    "Seed correlators",
+    "Broad sector grading",
+    "Lefschetz orthogonality"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/BenFrohman/Frohman-S-UnitCorrection",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

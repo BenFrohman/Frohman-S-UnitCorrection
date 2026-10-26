@@ -1,0 +1,105 @@
+{
+  "schema": "sealguard-merkle-provenance-v1.0",
+  "repository": "BenFrohman/Frohman-S-UnitCorrection",
+  "doi": "10.5281/zenodo.23652986",
+  "author": "Benjamin Stanley Frohman",
+  "orcid": "0009-0006-7068-3718",
+  "license": "Apache-2.0",
+  "timestamp_cdt": "2026-10-25T19:10:00-05:00",
+  "merkle_root_sha256": "99e47622c7f2b6ae967252efda873fe68d854649418dd1d0b6053473652b27d2",
+  "ed25519_key_fingerprint": "b428fb72676f1c52",
+  "ed25519_signature": "ba1081476a170b33358d5f2a0925eb0d6885a3d34a4862f30ebcaf226ef80129d444c541fca0a97a8ba159a4d8baf67d0d1c0cc3fe56c81c1c8af813ded22b00",
+  "leaf_count": 18,
+  "leaves": [
+    {
+      "path": ".github/workflows/docs.yml",
+      "sha256": "c3cf79ee1713c18ca9f493f633e4bb26f4ac418ebd219bf2bc5cf6169152c002",
+      "bytes": 1109
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "sha256": "d28204063d8f1334a9ab5ea40d20a7e1bf7e137bac9953addac1cbc7ff0e5377",
+      "bytes": 571
+    },
+    {
+      "path": ".zenodo.json",
+      "sha256": "5102d6d9f7473314fbb51d0dcf592b23ea4b8fc0c15e597587c2a3835dafcec6",
+      "bytes": 1327
+    },
+    {
+      "path": "AUTHORS.md",
+      "sha256": "1732529c9d516b14378c2ea60b7a29a9dd01385bb5f302efa163c42b3dceb130",
+      "bytes": 320
+    },
+    {
+      "path": "CITATION.cff",
+      "sha256": "2a004722dbe33404824317f6a4411de52a42eef3e129e2ca65295c35e3d847f7",
+      "bytes": 640
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "ec43eec7417d548fb78a8dc50830f1d854b91a89c2daf0d4e957601515c15e87",
+      "bytes": 10773
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "25e7e8e6db8e10713e70700ee932c02aa84c55bd9c2441758718d3f292acb354",
+      "bytes": 610
+    },
+    {
+      "path": "PARENT.md",
+      "sha256": "88f2c459d19f66b78cd6ee95657e12fb175c03efe73e726fd19a7fb857eb4bda",
+      "bytes": 470
+    },
+    {
+      "path": "README.md",
+      "sha256": "ec8c3050574a629c9dd259dda8465fe80315004402f32377b9764e33d5c4c600",
+      "bytes": 2785
+    },
+    {
+      "path": "audit/TITAN_AUDIT_CERTIFICATE.json",
+      "sha256": "6640826201903a736a5cc0423dc8c89ee105609739e2d66bee7e26a6425721a5",
+      "bytes": 678
+    },
+    {
+      "path": "docs/UNIT_CORRECTION.md",
+      "sha256": "732b7c7c59a1ff0937b4dec47016089a313cdb7745b2f94c6f90154027cef522",
+      "bytes": 1278
+    },
+    {
+      "path": "docs/WORKFLOWS.md",
+      "sha256": "0d04b463cea1d01577e676c92535c3f9ece474feccdd488fd7ff5ae7a8dce97e",
+      "bytes": 697
+    },
+    {
+      "path": "paper/Frohman_S_UnitCorrection_Technical_Monograph_2026.pdf",
+      "sha256": "a24c349664094a4d908f2b1fa3517ef8b64becbce09b756bffac1290707468c6",
+      "bytes": 48568
+    },
+    {
+      "path": "paper/Frohman_S_UnitCorrection_Technical_Monograph_2026.tex",
+      "sha256": "6e688ac7f3e4de555f4b0180772a7b0badbd634f309fae77a22d9d3ff9cad9e5",
+      "bytes": 4954
+    },
+    {
+      "path": "tables/broad_grading.csv",
+      "sha256": "6cc9470e2c190ad4e19da9dd7438f57e84c83b48059675980564999a3ca4667f",
+      "bytes": 297
+    },
+    {
+      "path": "tables/lefschetz_orthogonality.csv",
+      "sha256": "756b17e210b19b92e2320e1763da1007c28079fb0f4e2743293b247a9c80bbfb",
+      "bytes": 254
+    },
+    {
+      "path": "tables/not_seeds.csv",
+      "sha256": "58962daeefcd530e3a030e56c10f5a16370735ce384c30db8906c0eafc7c9704",
+      "bytes": 868
+    },
+    {
+      "path": "tables/seeds.csv",
+      "sha256": "99d5ffd0188453f8578238f958666b082c7150ff562a5c8b7ec2979cfcb8fa1b",
+      "bytes": 915
+    }
+  ]
+}

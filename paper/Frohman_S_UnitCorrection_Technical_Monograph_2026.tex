@@ -1,0 +1,103 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,linkcolor=blue,urlcolor=blue,citecolor=blue}
+
+\title{\textbf{Frohman-S-UnitCorrection: Narrow CohFT Unit 1\_J Correction, Seed Family S, and Lefschetz Orthogonality Tables in FJRW Theory}}
+\author{Benjamin Stanley Frohman\\
+\small ORCID: \href{https://orcid.org/0009-0006-7068-3718}{0009-0006-7068-3718} \quad|\quad
+GitHub: \href{https://github.com/BenFrohman/Frohman-S-UnitCorrection}{\texttt{BenFrohman/Frohman-S-UnitCorrection}}\\
+\small Dedicated 1-to-1 Zenodo DOI: \href{https://doi.org/10.5281/zenodo.23652986}{\texttt{10.5281/zenodo.23652986}}}
+\date{Earliest Commit Provenance: 2026-09-26 03:29:41 AM CDT (UTC-5)\\
+Siloed Archival Edition: October 25, 2026 (America/Chicago CDT)}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Standalone dataset and technical specification (`docs/CORRECTION.md`, `docs/BROAD\_GRADING.md`, `docs/UNIT\_INSERTION.md`, `tables/seeds.csv`, `tables/not\_seeds.csv`, `tables/broad\_grading.csv`, `tables/lefschetz\_orthogonality.csv`) establishing the narrow CohFT unit 1\_J selection-rule correction for the seed family S in three-block FJRW theory.
+\end{abstract}
+
+\section{Scope, Scientific Honesty, and Non-Claim Boundary}
+Records verified selection-rule and grading corrections for the seed list S and narrow unit insertions; explicitly distinguishes closed seed tables from open Hodge/CohFT conjectures.
+
+\begin{itemize}
+  \item \textbf{Repository:} \texttt{https://github.com/BenFrohman/Frohman-S-UnitCorrection}
+  \item \textbf{Dedicated 1-to-1 Zenodo DOI:} \texttt{10.5281/zenodo.23652986}
+  \item \textbf{Earliest Git Commit SHA:} \texttt{daf1c4ef200de90fa6140eb2bbe6e83081b82ecc} (2026-09-26 03:29:41 AM CDT (UTC-5))
+  \item \textbf{License \& Copyright:} Copyright \textcopyright\ 2026 Benjamin Stanley Frohman. Licensed under the Apache License, Version 2.0.
+\end{itemize}
+
+\section{Technical Overview \& Repository Specification}
+Author: Benjamin Stanley Frohman
+
+Copyright (c) 2026 Benjamin Stanley Frohman
+
+License: Apache-2.0
+
+Public.
+
+Latest pass of the seed-family work. **Does not overwrite**
+
+[BenFrohman/Frohman-MixedCorrelators-FJ](https://github.com/BenFrohman/Frohman-MixedCorrelators-FJ).
+
+That repo stays the problem statement and the 216-cell ledger.
+
+The CohFT unit is the generator of the **narrow** \textbackslash\{\}(J\textbackslash\{\})-sector:
+
+\$\$
+
+\textbackslash\{\}mathbf\{1\}\_J\textbackslash\{\}in H\_J,\textbackslash\{\}qquad \textbackslash\{\}mathrm\{Fix\}(J)=\textbackslash\{\}\{0\textbackslash\{\}\},\textbackslash\{\}qquad \textbackslash\{\}deg(\textbackslash\{\}mathbf\{1\}\_J)=0.
+
+\$\$
+
+It is **not** the Jacobian degree-0 line \textbackslash\{\}(R\_0\textbackslash\{\}simeq H\textasciicircum{}\{4,0\}\textbackslash\{\}) in the identity sector.
+
+The broad space is exactly
+
+\$\$
+
+\textbackslash\{\}mathrm\{Jac\}(F)\textasciicircum{}\{\textbackslash\{\}langle J\textbackslash\{\}rangle\},\textbackslash\{\}qquad \textbackslash\{\}dim=2605,
+
+\$\$
+
+Hilbert \textbackslash\{\}((1,426,1751,426,1)\textbackslash\{\}). There is no \textbackslash\{\}(2604\textbackslash\{\}) complement.
+
+Seed family, still OPEN:
+
+\section{Cryptographic Provenance \& File Inventory}
+Every source artifact in \texttt{BenFrohman/Frohman-S-UnitCorrection} is audited via \texttt{titan-audit}
+(\texttt{audit/TITAN\_AUDIT\_CERTIFICATE.json}) and sealed under a deterministic SHA-256 Merkle tree via
+\texttt{sealguard} (\texttt{PROVENANCE\_MERKLE\_ROOT.json}) signed with Ed25519 key fingerprint
+\texttt{b428fb72676f1c52}.
+
+\begin{center}
+\small
+\begin{tabular}{p{0.52\textwidth}rr}
+\toprule
+\textbf{Repository Path} & \textbf{Size} & \textbf{SHA-256 Prefix} \\
+\midrule
+\texttt{.github/workflows/docs.yml} & 1109 B & \texttt{c3cf79ee1713c18c...} \\
+\texttt{.github/workflows/release.yml} & 571 B & \texttt{d28204063d8f1334...} \\
+\texttt{LICENSE} & 11355 B & \texttt{9da72c2bee4f20ba...} \\
+\texttt{NOTICE} & 336 B & \texttt{f7a8c9f6feae3436...} \\
+\texttt{PARENT.md} & 470 B & \texttt{88f2c459d19f66b7...} \\
+\texttt{README.md} & 1662 B & \texttt{25544aec329a5bff...} \\
+\texttt{docs/UNIT\_CORRECTION.md} & 1278 B & \texttt{732b7c7c59a1ff09...} \\
+\texttt{docs/WORKFLOWS.md} & 697 B & \texttt{0d04b463cea1d015...} \\
+\texttt{tables/broad\_grading.csv} & 297 B & \texttt{6cc9470e2c190ad4...} \\
+\texttt{tables/lefschetz\_orthogonality.csv} & 254 B & \texttt{756b17e210b19b92...} \\
+\texttt{tables/not\_seeds.csv} & 868 B & \texttt{58962daeefcd530e...} \\
+\texttt{tables/seeds.csv} & 915 B & \texttt{99d5ffd0188453f8...} \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\vfill
+\noindent\rule{\textwidth}{0.4pt}\\
+\footnotesize
+\textbf{Attribution \& Licensing Notice:} Copyright \textcopyright\ 2026 Benjamin Stanley Frohman (ORCID: \texttt{0009-0006-7068-3718}).
+Licensed under the Apache License, Version 2.0.
+\end{document}

@@ -1,5 +1,7 @@
 # Frohman-S-UnitCorrection
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23652986.svg)](https://doi.org/10.5281/zenodo.23652986) [![License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
+
 Author: Benjamin Stanley Frohman  
 Copyright (c) 2026 Benjamin Stanley Frohman  
 License: Apache-2.0  
@@ -53,3 +55,14 @@ Score: \(180\) empty-stack zeros.
 - `tables/broad_grading.csv` — aligned \(181\) + off-diagonal \(2424\) = \(2605\)
 - `tables/lefschetz_orthogonality.csv` — two-point, not \(X_{001}\)
 - `PARENT.md` — pointer to the problem repo
+
+---
+## Archival DOI & Cryptographic Provenance
+
+- **Dedicated 1-to-1 Zenodo DOI:** [10.5281/zenodo.23652986](https://doi.org/10.5281/zenodo.23652986)
+- **Author:** Benjamin Stanley Frohman (ORCID: [0009-0006-7068-3718](https://orcid.org/0009-0006-7068-3718))
+- **License:** Apache License, Version 2.0 (`Copyright (c) 2026 Benjamin Stanley Frohman`)
+- **Earliest Commit Provenance:** `daf1c4ef200de90fa6140eb2bbe6e83081b82ecc` (2026-09-26 03:29:41 AM CDT (UTC-5))
+- **SealGuard SHA-256 Merkle Root:** `99e47622c7f2b6ae967252efda873fe68d854649418dd1d0b6053473652b27d2` (`PROVENANCE_MERKLE_ROOT.json`)
+- **Titan Audit Certificate:** `audit/TITAN_AUDIT_CERTIFICATE.json` (Ed25519 key `b428fb72676f1c52`)
+- **Scope & Scientific Boundary:** Records verified selection-rule and grading corrections for the seed list S and narrow unit insertions; explicitly distinguishes closed seed tables from open Hodge/CohFT conjectures.

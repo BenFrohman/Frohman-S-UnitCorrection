@@ -1,9 +1,13 @@
 Frohman-S-UnitCorrection
-Copyright 2026 Benjamin Stanley Frohman
+Copyright (c) 2026 Benjamin Stanley Frohman
 
-Author: Benjamin Stanley Frohman <frohmanbenjamin@gmail.com>
-ORCID: https://orcid.org/0009-0006-7068-3718
-GitHub: https://github.com/BenFrohman
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
 
-This repository is offered under the Apache License, Version 2.0.
-See LICENSE for the full Apache License, Version 2.0 text.
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Author: Benjamin Stanley Frohman (ORCID: https://orcid.org/0009-0006-7068-3718)
+Repository: https://github.com/BenFrohman/Frohman-S-UnitCorrection
+Dedicated 1-to-1 Zenodo DOI: https://doi.org/10.5281/zenodo.23652986
+Earliest Commit Provenance: daf1c4ef200de90fa6140eb2bbe6e83081b82ecc (2026-09-26 03:29:41 AM CDT (UTC-5))
