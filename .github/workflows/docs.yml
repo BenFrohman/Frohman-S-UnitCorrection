@@ -35,8 +35,14 @@ jobs:
       - name: Seeds list must not contain dummy fills
         run: |
           set -euo pipefail
-          if grep -Eiq '(^|,)(0|1|6|1/6)($|,)' tables/seeds.csv; then
-            echo "dummy numeral parked in tables/seeds.csv"
-            exit 1
-          fi
+          python3 - <<'PY'
+          import csv, sys
+          bad = {"0", "1", "6", "1/6"}
+          with open("tables/seeds.csv", newline="") as f:
+              rows = list(csv.reader(f))
+          hits = [(i + 1, c) for i, r in enumerate(rows) for c in r if c.strip() in bad]
+          if hits:
+              print("dummy numeral parked in tables/seeds.csv:", hits)
+              sys.exit(1)
+          PY
           echo "seeds.csv has no 0 / 1 / 6 / 1/6 fills"
