@@ -1,5 +1,7 @@
 # Frohman-S-UnitCorrection
 
+[![docs.yml](https://github.com/BenFrohman/Frohman-S-UnitCorrection/actions/workflows/docs.yml/badge.svg?branch=main)](https://github.com/BenFrohman/Frohman-S-UnitCorrection/actions/workflows/docs.yml)
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23652986.svg)](https://doi.org/10.5281/zenodo.23652986) [![License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 
 Author: Benjamin Stanley Frohman  
