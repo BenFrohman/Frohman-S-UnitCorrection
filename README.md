@@ -68,3 +68,8 @@ Score: \(180\) empty-stack zeros.
 - **SealGuard SHA-256 Merkle Root:** `99e47622c7f2b6ae967252efda873fe68d854649418dd1d0b6053473652b27d2` (`PROVENANCE_MERKLE_ROOT.json`)
 - **Titan Audit Certificate:** `audit/TITAN_AUDIT_CERTIFICATE.json` (Ed25519 key `b428fb72676f1c52`)
 - **Scope & Scientific Boundary:** Records verified selection-rule and grading corrections for the seed list S and narrow unit insertions; explicitly distinguishes closed seed tables from open Hodge/CohFT conjectures.
+
+## Zenodo archive
+
+- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23652985.svg)](https://doi.org/10.5281/zenodo.23652985) Frohman-S-UnitCorrection: Narrow CohFT Unit 1_J Correction, Seed Family S, and Lefschetz Orthogonality Tables in FJRW Theory — all versions: [10.5281/zenodo.23652985](https://doi.org/10.5281/zenodo.23652985); latest version: [10.5281/zenodo.23652986](https://doi.org/10.5281/zenodo.23652986)
+- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23867535.svg)](https://doi.org/10.5281/zenodo.23867535) Frohman-S-UnitCorrection: Narrow CohFT Unit 1_J Correction, Seed Family S, and Lefschetz Orthogonality Tables in FJRW Theory — all versions: [10.5281/zenodo.23867535](https://doi.org/10.5281/zenodo.23867535); latest version: [10.5281/zenodo.23867536](https://doi.org/10.5281/zenodo.23867536)
